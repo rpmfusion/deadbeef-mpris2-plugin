@@ -7,6 +7,7 @@ License:        zlib
 URL:            https://github.com/Serranya/%{name}
 Source0:        %{url}/releases/download/v%{version}/%{name}-%{version}.tar.xz
 
+BuildRequires:  gcc
 BuildRequires:  automake
 BuildRequires:  libtool
 BuildRequires:  glib2-devel
