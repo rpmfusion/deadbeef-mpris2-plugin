@@ -1,5 +1,5 @@
 Name:           deadbeef-mpris2-plugin
-Version:        1.11
+Version:        1.12
 Release:        1%{?dist}
 Summary:        MPRISv2 plugin for the DeaDBeeF music player
 
@@ -44,6 +44,9 @@ rm %{buildroot}%{_libdir}/deadbeef/mpris.*a
 
 
 %changelog
+* Wed Feb 27 2019 Vasiliy N. Glazov <vascom2@gmail.com> 1.12-1
+- Update to 1.12
+
 * Thu Dec 27 2018 Vasiliy N. Glazov <vascom2@gmail.com> 1.11-1
 - Update to 1.11
 
