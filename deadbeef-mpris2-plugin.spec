@@ -3,7 +3,7 @@ Version:        1.12
 Release:        1%{?dist}
 Summary:        MPRISv2 plugin for the DeaDBeeF music player
 
-License:        zlib
+License:        GPLv2+
 URL:            https://github.com/Serranya/%{name}
 Source0:        %{url}/releases/download/v%{version}/%{name}-%{version}.tar.xz
 
@@ -40,6 +40,7 @@ rm %{buildroot}%{_libdir}/deadbeef/mpris.*a
 
 %files
 %doc README
+%license LICENSE
 %{_libdir}/deadbeef/mpris.*
 
 
