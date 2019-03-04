@@ -40,7 +40,7 @@ rm %{buildroot}%{_libdir}/deadbeef/mpris.*a
 
 %files
 %doc README
-%license LICENSE
+# %license LICENSE
 %{_libdir}/deadbeef/mpris.*
 
 
