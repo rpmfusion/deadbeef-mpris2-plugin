@@ -1,6 +1,6 @@
 Name:           deadbeef-mpris2-plugin
 Version:        1.13
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        MPRISv2 plugin for the DeaDBeeF music player
 
 License:        GPLv2+
@@ -45,6 +45,9 @@ rm %{buildroot}%{_libdir}/deadbeef/mpris.*a
 
 
 %changelog
+* Mon Aug 17 2020 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 1.13-3
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
+
 * Tue Feb 04 2020 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 1.13-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
 
