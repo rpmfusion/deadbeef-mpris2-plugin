@@ -7,6 +7,10 @@ License:        GPLv2+
 URL:            https://github.com/Serranya/%{name}
 Source0:        %{url}/releases/download/v%{version}/%{name}-%{version}.tar.xz
 
+# Build for armv7hl failed
+# https://github.com/DeaDBeeF-Player/deadbeef/issues/2538
+ExcludeArch:    armv7hl
+
 BuildRequires:  gcc
 BuildRequires:  automake
 BuildRequires:  libtool
