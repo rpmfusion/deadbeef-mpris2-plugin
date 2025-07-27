@@ -1,6 +1,6 @@
 Name:           deadbeef-mpris2-plugin
 Version:        1.16
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        MPRISv2 plugin for the DeaDBeeF music player
 
 License:        GPLv2+
@@ -50,6 +50,9 @@ rm %{buildroot}%{_libdir}/deadbeef/mpris.*a
 
 
 %changelog
+* Sun Jul 27 2025 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 1.16-6
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_43_Mass_Rebuild
+
 * Tue Jan 28 2025 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 1.16-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_42_Mass_Rebuild
 
